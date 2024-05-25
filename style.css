@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+}
+
+
+header a{
+    background-color: lightskyblue;
+    padding: 5px 10px 5px 10px;
+    border: solid blue 3px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px 1px black;
+    position: relative;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+header a:hover{
+    background-color: white;
+    position: relative;
+    transition: 0.1s;
+}
+
+header a:focus{
+    position: relative;
+    right: -5px;
+    bottom: -5px;
+    box-shadow: 0 0 0 0;
+}
+
+main ul{
+    transition: 1s;
+    font-size: -26px;
+}
+
+main ul:hover{
+    background-color: lightskyblue;
+    font-size: 26px;
+    transition: 2s ;
+}
+
+
